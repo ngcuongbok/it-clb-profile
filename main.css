@@ -26,7 +26,7 @@ section {
 #profile-img {
 	cursor: pointer;
 	border-radius: 50%;
-	max-width: 50%;
+	max-width: 40%;
 	height: auto;
 	margin-bottom: 1em;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
