@@ -150,7 +150,11 @@ section {
 }
 
 
-
+.flag-loc{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
 
 
 
