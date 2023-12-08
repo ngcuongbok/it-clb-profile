@@ -59,9 +59,17 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease-in-out;
         }
+        @keyframes rotate {
+          50% {
+            transform: rotate(360deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
 
         #profile-img:hover {
             transform: scale(1.1);
+            animation: rotate 2s forwards;
         }
 
         .social-links {
