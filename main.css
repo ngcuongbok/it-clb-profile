@@ -32,7 +32,7 @@ section {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	transition: transform 0.3s ease-in-out;
 	overflow: hidden;
-	padding: 1rem;
+	padding: .5rem;
 	animation: bounce 2s infinite; /*nhap nho cho dep*/
 }
 
