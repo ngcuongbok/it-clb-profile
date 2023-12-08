@@ -9,7 +9,7 @@ return Object.fromEntries(arr)
 }
 
 getCloudflareJSON().then(data => {
-  app.innerHTML += `div id="ip">
+  app.innerHTML += `<div id="ip">
   <p>ip: <span class="content">${data.ip}</span></p>
   <p>Quốc gia: <span class="content">${data.loc} <img src="https://hatscripts.github.io/circle-flags/flags/${data.loc.toLowerCase()}.svg" class="flag-loc"/></span></p>
   </div>`
